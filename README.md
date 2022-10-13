@@ -3,6 +3,8 @@ Play the popular Connect 4 game directly from your command line!
 
 Two people are required to play.
 
+![Demo](https://github.com/shahank42/connect4-cli/blob/main/connect4-cli-demo.gif?raw=true)
+
 ## What is Connect 4?
 According to Wikipedia, Connect Four is a two-player connection board game, in which the players choose a color and then take turns dropping colored tokens into a seven-column, six-row vertically suspended grid.
 
@@ -25,6 +27,12 @@ to get compile the release binary.
 Then simply execute it (located at `bin/Release`) to start playing.
 
 For a debug build just remove the compilation flags at the end of the flag.
+
+---
+
+Another way to compile would be build using Code::Blocks.
+
+Building with Visual Studio C++ is not recommended, because of a macro collision error.
 
 ## Gameplay Instructions
 The prompt at the bottom left shows which players turn it is. The corresponding player can enter the column number (from 1 to 7) in which they desire to place their coin.
