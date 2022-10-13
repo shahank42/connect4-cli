@@ -140,7 +140,7 @@ int Connect4Board::getNextMoveInput()
         {
             std::cerr << "What are you even typing? Let's try that again.";
             std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cin.ignore((std::numeric_limits<std::streamsize>::max)(), '\n');
             continue;
         }
 
